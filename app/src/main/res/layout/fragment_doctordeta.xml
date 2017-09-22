@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.aug22.avinashchintareddy.thedoctors.fragments.DoctorDetailF"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        android:background="#99ded1"/>
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.26"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:background="#99ded1"/>
+
+
+
+
+    <TextView
+        android:id="@+id/textViewQualification"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:background="#99ded1"/>
+
+    <TextView
+        android:id="@+id/textViewExperience"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:background="#99ded1"
+        />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.22"
+        android:background="#99ded1"/>
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.05"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:background="#99ded1"
+        />
+
+
+    <Button
+        android:id="@+id/buttonBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#83e2df"
+        android:text="Book" />
+
+
+</LinearLayout>
